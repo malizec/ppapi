@@ -53,6 +53,6 @@ if ( isset($_GET['token']) && $_GET['token'] == app('token') ) {
 	// });
 
 } else {
-	die('Nesto je zajebaslo usput');
+	die('Nesto je zajebalo usput!!! Fali token2');
 }
 
