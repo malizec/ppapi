@@ -1,9 +1,14 @@
 @import 'normalize';
 
+@import 'bootstrap-scss/bootstrap';
+
+@import 'navigation';
+
+
 body{
 	padding: 0;
 	margin: 0;
-	background: url('https://primerprogetto.github.io/img/PrimerProgettoLogo.png') center 0px no-repeat;
+	// background: url('https://primerprogetto.github.io/img/PrimerProgettoLogo.png') center 0px no-repeat;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -52,12 +57,12 @@ body{
     }
 
     .bgimg-2 {
-      background-image: url("https://primerprogetto.github.io/img/PrimerProgettoLogo.png");
+      background-image: url("https://image.freepik.com/free-photo/businessman-holding-smartphone-at-laptop-in-office_1262-2232.jpg");
       min-height: 400px;
     }
 
     .bgimg-3 {
-      background-image: url("https://primerprogetto.github.io/img/PrimerProgettoLogo.png");
+      background-image: url("https://static.pexels.com/photos/374074/pexels-photo-374074.jpeg");
       min-height: 400px;
     }
 
@@ -91,3 +96,4 @@ body{
             background-attachment: scroll;
         }
     }
+
